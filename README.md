@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+ abstract class Vehicle {
     private String vehicleNumber;
     private String vehicleType;
     private String manufacturer;
@@ -18,7 +18,7 @@ public abstract class Vehicle {
     }
 }
 
-public class Car extends Vehicle {
+class Car extends Vehicle {
     private int numDoors;
     private String transmissionType;
 
@@ -42,7 +42,7 @@ public class Car extends Vehicle {
     }
 }
 
-public class Motorcycle extends Vehicle {
+ class Motorcycle extends Vehicle {
     private int engineCapacity;
     private String fuelType;
 
@@ -66,7 +66,7 @@ public class Motorcycle extends Vehicle {
     }
 }
 
-public class Bus extends Vehicle {
+ class Bus extends Vehicle {
     private int numSeats;
     private String airConditioningType;
 
